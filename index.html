@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/a444d60789.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-- 모바일: 위에서부터 세로 방향으로 크게 나눈다. -->
+        <header>
+            <div class="logo">
+                <button class="fa-sharp fa-solid fa-bars"></button>
+                <i class="fa-brands fa-youtube"></i>
+                <span>Premium<sup>KR</sup></span>
+            </div>
+            <div class="icons">
+                <i class="fa-regular fa-bell"></i>
+                <button class="header profile">
+                    <img src="https://yt3.ggpht.com/S2uVdyJk6VS92ys4HyTtL5dVcMyMfe7elmB108t_Lfj-f_C-XsxExxBVoGTMX09Zq0r0ebUUwGo=s88-c-k-c0x00ffffff-no-rj-mo" />
+                </button>
+            </div>
+        </header>
+        <section class="player">
+            <video
+                src="video/video.mp4"
+                controls
+                autoplay
+            ></video>
+        </section>
+        <section class="info">
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#호캉스</li>
+                    <li>#플렉스</li>
+                    <li>#크리스마스</li>
+                </ul>
+                <div class="title">
+                    <span>하룻밤에 얼마면 되죠? 짧고 굵은 휴가의 대명사 호캉스의 탄생 / 14F</span>
+                </div>
+                <div class="viewsAndDetail">
+                    <span class="views">조회수 9,463회 · 1시간 전</span>
+                    <button class="detailBtn">...더보기</button>
+                </div>
+            </div>
+            <div class="channel">
+                <div class="metadata">
+                    <button class="channel profile">
+                        <img src="https://yt3.ggpht.com/x8wFp1vdQm6eYdsw6_mA85YQrkVmn7IGARKAv3loTSye_ZouDlsY9GJb81fig7BRnJqD7P64xg=s48-c-k-c0x00ffffff-no-rj" />
+                    </button>
+                    <div class="info">
+                        <span>14F 일사에프</span>
+                        <span>164만</span>
+                    </div>
+                </div>
+                <button class="subscribeBtn">구독중</button>
+            </div>
+            <div class="actions">
+                <div class="thumbs">
+                    <li>
+                        <button>
+                            <i class="fa-regular fa-thumbs-up">259</i>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </button>
+                    </li>
+                </div>
+                <li>
+                    <button>
+                        <i class="fa-regular fa-share-from-square">공유</i>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-regular fa-bookmark">저장</i>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-regular fa-flag">신고</i>
+                    </button>
+                </li>
+            </div>
+        </section>
+        <section class="comment">
+            <span>댓글 · 23개</span>
+            <button><i class="fa-solid fa-arrow-up-arrow-down"></i>↕</button>
+        </section>
+        <section class="upNext">
+            <!-- 추후 그리드로 추가 예정 -->
+        </section>
+
+        <section class="leftMenu">
+            <header>
+                <div class="logo">
+                    <button class="fa-sharp fa-solid fa-bars"></button>
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>Premium<sup>KR</sup></span>
+                </div>
+            </header>
+            <div class="defaultMenu">
+                <li>
+                    <button>
+                        <i class="fa-regular fa-share-from-square"></i>
+                        <span>홈</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-regular fa-video"></i>
+                        <span>Shorts</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-regular fa-folder-grid"></i>
+                        <span>구독</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-brands fa-square-youtube"></i>
+                        <span>Originals</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-regular fa-circle-play"></i>
+                        <span>YouTube Music</span>
+                    </button>
+                </li>
+            </div>
+        </section>
+        <script src="js/hamburger.js"></script>
+    </body>
+</html>
